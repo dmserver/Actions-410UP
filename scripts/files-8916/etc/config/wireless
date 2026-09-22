@@ -1,0 +1,10 @@
+
+config wifi-iface 'wifinet1'
+	option device 'radio0'
+	option mode 'sta'
+	option network 'wifi4 wifi6'
+	option ssid 'iKuai_IPTV'
+	option encryption 'psk-mixed'
+	option key '123456789'
+	option ifname 'wific'
+

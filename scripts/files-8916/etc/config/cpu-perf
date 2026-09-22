@@ -1,0 +1,21 @@
+
+config main 'config'
+	option enabled '1'
+
+config governor 'ondemand'
+	option up_threshold '60'
+
+config governor 'conservative'
+
+config cpu 'cpu0'
+	option scaling_governor 'schedutil'
+
+config cpu 'cpu1'
+	option scaling_governor 'schedutil'
+
+config cpu 'cpu2'
+	option scaling_governor 'schedutil'
+
+config cpu 'cpu3'
+	option scaling_governor 'schedutil'
+
